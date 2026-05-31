@@ -28,7 +28,15 @@
       "Bash(dir *)",
       "Bash(Get-ChildItem -Force)",
       "Bash(Select-Object Name)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(ping *)",
+      "Bash(ssh *)",
+      "Bash(python -c \"import paramiko; print\\('paramiko available'\\)\")",
+      "Bash(python *)"
     ]
   }
 }
