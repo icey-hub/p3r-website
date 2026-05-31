@@ -31,9 +31,9 @@ type BlogDatabase = {
 };
 
 const DEFAULT_IMAGES = [
-  "/images/top/ss_introduction_ccbbd0e83f473acf4647f51baab6867f.png",
-  "/images/top/ss_game_system_810d5104e29a2e47e72286649713efda.jpg",
-  "/images/top/ss_features_57a9f52b44e40f3709e529468cefbeb5.png",
+  "/images/blog-covers/icey-cover-shadow-time.png",
+  "/images/blog-covers/icey-cover-writing-system.png",
+  "/images/blog-covers/icey-cover-blue-rhythm.png",
 ];
 
 const seedPosts: BlogPost[] = [
