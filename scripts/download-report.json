@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-05-28T13:49:39.155Z",
+  "totalUrls": 207,
+  "downloaded": 204,
+  "failed": 3,
+  "totalBytes": 18089875,
+  "elapsedSeconds": 11.1,
+  "failedUrls": [
+    {
+      "url": "https://asia.sega.com/resources/fonts/Syncopate-Bold.ttf",
+      "error": "HTTP 404 for https://asia.sega.com/resources/fonts/Syncopate-Bold.ttf"
+    },
+    {
+      "url": "https://asia.sega.com/resources/fonts/Urbanist-Bold.ttf",
+      "error": "HTTP 404 for https://asia.sega.com/resources/fonts/Urbanist-Bold.ttf"
+    },
+    {
+      "url": "https://asia.sega.com/resources/fonts/Urbanist-VariableFont_wght.ttf",
+      "error": "HTTP 404 for https://asia.sega.com/resources/fonts/Urbanist-VariableFont_wght.ttf"
+    }
+  ]
+}

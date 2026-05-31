@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node *)",
+      "Bash(curl *)",
+      "Bash(npx skills *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(f'Images: {len\\(d.get\\(\\\\\"images\\\\\",[]\\)\\)}'\\); print\\(f'BG Images: {len\\(d.get\\(\\\\\"bgImages\\\\\",[]\\)\\)}'\\); print\\(f'Videos: {len\\(d.get\\(\\\\\"videos\\\\\",[]\\)\\)}'\\); [print\\(f' {i[\\\\\"src\\\\\"][:100]}'\\) for i in d.get\\('images',[]\\)[:5]]\")",
+      "Bash(npm run *)",
+      "Bash(Start-Sleep -Seconds 5)",
+      "WebFetch(domain:github.com)",
+      "Bash(where uvx *)",
+      "Bash(uvx --version)",
+      "Bash(cc-connect *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\E--claudecode-web-p3r\\\\07fa254b-20de-421c-b83e-13baee16cfaf\\\\tasks\\\\bi54aoy4x.output\")",
+      "WebFetch(domain:asia.sega.com)",
+      "Bash(npx next *)",
+      "Bash(timeout 5)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3457)",
+      "Bash(findstr LISTENING)",
+      "Bash(powershell *)",
+      "Bash(git init *)",
+      "Bash(dir *)",
+      "Bash(Get-ChildItem -Force)",
+      "Bash(Select-Object Name)",
+      "Bash(git add *)"
+    ]
+  }
+}

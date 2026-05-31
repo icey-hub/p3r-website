@@ -1,0 +1,233 @@
+[browser] Image with src "/images/top/lp_modal/lp_image_0ebaecb59715564edca43d646973c6c9.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/top/xbox_btn_5570ee02d347a46572bb888e0e1996db.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/windows_btn_dadc180f3be1a40d948951f5ef8722cd.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ps_btn_3de312d0e8adc7804f1b98ef469368a0.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/steam_btn_5453f2326be40f0b0ffe952c1366f57b.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/dlc_link_btn_addfe47e2bf6efa45da9cc9a61e9b045.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[browser] Image with src "/images/img/common/steam_logo_f359fba372b69c152feb76e4e2203d7a.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from "127.0.0.1".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['127.0.0.1'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+
+-----
+[1m[31mFATAL[39m[0m: An unexpected Turbopack error occurred. A panic log has been written to C:\Users\1\AppData\Local\Temp\next-panic-64dd07c7c651029ee1ccc999e7a3c86a.log.
+
+To help make Turbopack better, report this error by clicking here: https://bugs.nextjs.org/search?category=turbopack-error-report&title=Turbopack%20Error%3A%20Failed%20to%20write%20app%20endpoint%20%2Fpage&body=Turbopack%20version%3A%20%60ee6e79b1%60%0ANext.js%20version%3A%20%600.0.0%60%0A%0AError%20message%3A%0A%60%60%60%0AFailed%20to%20write%20app%20endpoint%20%2Fpage%0A%0ACaused%20by%3A%0A-%20Cell%20CellId%20%7B%20type_id%3A%20ValueTypeId%20%7B%20id%3A%2081%2C%20name%3A%20ValueType%20%7B%20name%3A%20%22next_core%3A%3Aapp_structure%3A%3AAppPageLoaderTree%22%20%7D%20%7D%2C%20index%3A%200%20%7D%20no%20longer%20exists%20in%20task%20TaskId%20%7B%20id%3A%2059%20%7D%20directory_tree_to_loader_tree%20%28no%20cell%20of%20this%20type%20exists%29%0A%0ADebug%20info%3A%0A-%20Execution%20of%20hmr_update_with_issues_operation%20failed%0A-%20Execution%20of%20Project%3A%3Ahmr_update%20failed%0A-%20Execution%20of%20VersionedContentMap%3A%3Aget%20failed%0A-%20Execution%20of%20VersionedContentMap%3A%3Aget_asset%20failed%0A-%20Execution%20of%20VersionedContentMap%3A%3Acompute_entry%20failed%0A-%20Execution%20of%20%2Aemit_assets%20failed%0A-%20Execution%20of%20all_assets_from_entries_operation%20failed%0A-%20Execution%20of%20%2Aall_assets_from_entries%20failed%0A-%20Execution%20of%20endpoint_output_assets_operation%20failed%0A-%20Execution%20of%20%3CAppEndpoint%20as%20Endpoint%3E%3A%3Aoutput%20failed%0A-%20Failed%20to%20write%20app%20endpoint%20%2Fpage%0A-%20Execution%20of%20%2Aall_asset_paths%20failed%0A-%20Execution%20of%20%2AAppEndpointOutput%3A%3Aoutput_assets%20failed%0A-%20Execution%20of%20AppEndpoint%3A%3Aoutput%20failed%0A-%20Execution%20of%20get_app_page_entry%20failed%0A-%20Execution%20of%20parse_segment_config_from_loader_tree%20failed%0A-%20Cell%20CellId%20%7B%20type_id%3A%20ValueTypeId%20%7B%20id%3A%2081%2C%20name%3A%20ValueType%20%7B%20name%3A%20%22next_core%3A%3Aapp_structure%3A%3AAppPageLoaderTree%22%20%7D%20%7D%2C%20index%3A%200%20%7D%20no%20longer%20exists%20in%20task%20TaskId%20%7B%20id%3A%2059%20%7D%20directory_tree_to_loader_tree%20%28no%20cell%20of%20this%20type%20exists%29%0A%60%60%60&labels=Turbopack,Turbopack%20Panic%20Backtrace
+-----
+
+[browser] Image with src "/images/top/ss_introduction_ccbbd0e83f473acf4647f51baab6867f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_game_system_810d5104e29a2e47e72286649713efda.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_features_57a9f52b44e40f3709e529468cefbeb5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character1_badbd990dcbabe1f25c22de113f772a0.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character2_35a3dc87ea1a02e2e3d6397d46e1cbf9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character4_b11ad41cb7a01fef1d40aeb65d002471.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character8_790cb89b62931cfe93f16d61c746464d.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_introduction_ccbbd0e83f473acf4647f51baab6867f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_game_system_810d5104e29a2e47e72286649713efda.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_features_57a9f52b44e40f3709e529468cefbeb5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character1_badbd990dcbabe1f25c22de113f772a0.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character2_35a3dc87ea1a02e2e3d6397d46e1cbf9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character4_b11ad41cb7a01fef1d40aeb65d002471.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character8_790cb89b62931cfe93f16d61c746464d.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_introduction_ccbbd0e83f473acf4647f51baab6867f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_game_system_810d5104e29a2e47e72286649713efda.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_features_57a9f52b44e40f3709e529468cefbeb5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character1_badbd990dcbabe1f25c22de113f772a0.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character2_35a3dc87ea1a02e2e3d6397d46e1cbf9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character4_b11ad41cb7a01fef1d40aeb65d002471.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character8_790cb89b62931cfe93f16d61c746464d.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] GSAP target .gsap-hero-logo not found. https://gsap.com (src/components/IceyGsapEffects.tsx:38:14)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:38:14)
+[browser] GSAP target .gsap-hero-card not found. https://gsap.com (src/components/IceyGsapEffects.tsx:39:14)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:39:14)
+[browser] GSAP target .gsap-newsletter not found. https://gsap.com (src/components/IceyGsapEffects.tsx:123:16)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:123:16)
+[browser] Element not found: .gsap-newsletter (src/components/IceyGsapEffects.tsx:123:16)
+[browser] GSAP target .gsap-hero-logo not found. https://gsap.com (src/components/IceyGsapEffects.tsx:38:14)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:38:14)
+[browser] GSAP target .gsap-hero-card not found. https://gsap.com (src/components/IceyGsapEffects.tsx:39:14)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:39:14)
+[browser] GSAP target .gsap-newsletter not found. https://gsap.com (src/components/IceyGsapEffects.tsx:123:16)
+[browser] GSAP target  not found. https://gsap.com (src/components/IceyGsapEffects.tsx:123:16)
+[browser] Element not found: .gsap-newsletter (src/components/IceyGsapEffects.tsx:123:16)
+[browser] Image with src "/images/top/character1_badbd990dcbabe1f25c22de113f772a0.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character2_35a3dc87ea1a02e2e3d6397d46e1cbf9.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character4_b11ad41cb7a01fef1d40aeb65d002471.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/character8_790cb89b62931cfe93f16d61c746464d.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_game_system_810d5104e29a2e47e72286649713efda.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_features_57a9f52b44e40f3709e529468cefbeb5.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/top/ss_introduction_ccbbd0e83f473acf4647f51baab6867f.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+[browser] Uncaught Error: ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  63 |           }
+  64 |
+> 65 |           const hero = gsap.timeline({ defaults: { duration: 0.8 } });
+     |           ^^^^^
+  66 |           hero
+  67 |             .to(
+  68 |               ".gsap-hero-slice",
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+    at <unknown> (Error: ./src/components/IceyGsapEffects.tsx:65:11)
+    at <unknown> (Error: (./src/components/IceyGsapEffects.tsx:65:11)
+[browser] Uncaught Error: ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  63 |           }
+  64 |
+> 65 |           const hero = gsap.timeline({ defaults: { duration: 0.8 } });
+     |           ^^^^^
+  66 |           hero
+  67 |             .to(
+  68 |               ".gsap-hero-slice",
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
+    at <unknown> (Error: ./src/components/IceyGsapEffects.tsx:65:11)
+    at <unknown> (Error: (./src/components/IceyGsapEffects.tsx:65:11)
+⨯ ./src/components/IceyGsapEffects.tsx:65:11
+Expected ',', got 'const'
+  [90m63 |[0m           }
+  [90m64 |[0m
+[31m[1m>[0m [90m65 |[0m           [36mconst[0m hero = gsap.timeline({ defaults: { duration: [35m0.8[0m } });
+  [90m   |[0m           [31m[1m^^^^^[0m
+  [90m66 |[0m           hero
+  [90m67 |[0m             .to(
+  [90m68 |[0m               [32m".gsap-hero-slice"[0m,
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./src/components/IceyGsapEffects.tsx
+    ./src/app/page.tsx
+
+
