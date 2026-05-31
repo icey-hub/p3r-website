@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# P3R Website
 
-## Getting Started
+icey's personal blog — a Next.js website with Docker deployment support.
 
-First, run the development server:
+## Tech Stack
+
+- **Framework:** Next.js 16 (Turbopack)
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **Deployment:** Docker / Docker Compose
+
+## Quick Start (Development)
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Docker Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Prerequisites
 
-## Learn More
+- Docker 20+
+- Docker Compose v2
 
-To learn more about Next.js, take a look at the following resources:
+### One-Command Deploy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Clone the repo
+git clone https://github.com/icey-hub/p3r-website.git
+cd p3r-website
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Build and start
+docker compose up -d --build
+```
 
-## Deploy on Vercel
+The site will be available at http://your-server-ip:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Common Commands
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+# View logs
+docker compose logs -f
+
+# Restart
+docker compose restart
+
+# Stop
+docker compose down
+
+# Rebuild from scratch
+docker compose down
+docker compose build --no-cache
+docker compose up -d
+```
+
+### Remote Deploy Script
+
+Deploy to any server with one command:
+
+```bash
+# Linux/macOS (requires sshpass)
+chmod +x deploy.sh
+./deploy.sh <server-ip> <username> <password>
+
+# Example
+./deploy.sh 192.168.1.100 root mypassword
+```
+
+### Change Port
+
+Edit `docker-compose.yml`:
+
+```yaml
+ports:
+  - "8080:3000"  # Change 8080 to your desired port
+```
+
+Then restart: `docker compose up -d`
+
+## Manual Deployment (Without Docker)
+
+```bash
+# Install dependencies
+npm ci
+
+# Build
+npm run build
+
+# Start production server
+npm start
+```
+
+Use PM2 for process management:
+
+```bash
+npm install -g pm2
+pm2 start npm --name "p3r" -- start
+pm2 save
+pm2 startup
+```
+
+## Project Structure
+
+```
+├── app/              # Next.js App Router pages
+│   ├── page.tsx      # Homepage
+│   ├── blog/         # Blog pages
+│   ├── admin/        # Admin panel
+│   └── api/          # API routes
+├── components/       # React components
+├── lib/              # Utilities and data
+├── public/           # Static assets
+├── Dockerfile        # Multi-stage Docker build
+├── docker-compose.yml
+└── next.config.ts
+```
+
+## Environment Variables
+
+Create `.env.local` for local development:
+
+```env
+# Add your environment variables here
+```
+
+## License
+
+MIT
