@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 
 const cookieName = "icey_admin_session";
 const sessionTtlMs = 1000 * 60 * 60 * 24 * 7;
+const fallbackSessionSecret = randomBytes(32).toString("base64url");
 
 type SessionPayload = {
   role: "admin";
@@ -13,11 +14,11 @@ type SessionPayload = {
 };
 
 function getSessionSecret() {
-  return process.env.SESSION_SECRET || "icey-local-dev-session-secret-change-before-deploy";
+  return process.env.SESSION_SECRET || fallbackSessionSecret;
 }
 
 export function getAdminUsername() {
-  return process.env.ADMIN_USERNAME || "icey";
+  return process.env.ADMIN_USERNAME || "admin";
 }
 
 function hashPassword(value: string) {
@@ -39,7 +40,12 @@ export function verifyAdminCredentials(username: string, password: string) {
     return constantEqual(hashPassword(password), configuredHash);
   }
 
-  return constantEqual(password, process.env.ADMIN_PASSWORD || "icey-admin");
+  const configuredPassword = process.env.ADMIN_PASSWORD;
+  if (configuredPassword) {
+    return constantEqual(password, configuredPassword);
+  }
+
+  return false;
 }
 
 function sign(payload: string) {
@@ -99,4 +105,3 @@ export async function requireAdmin() {
   if (!session) redirect("/admin/login");
   return session;
 }
-

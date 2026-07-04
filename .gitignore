@@ -31,6 +31,27 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+.next-dev*.log
+
+# local agent/tooling state
+.claude/
+.cc-connect/
+
+# local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# local deployment helpers
+deploy.py
+deploy-direct.py
+fix-deploy*.py
+deploy-docker.py
+cleanup-docker.py
+check-docker.py
+restart-docker.py
+sync-docker.py
+fix-port.py
 
 # env files (can opt-in for committing if needed)
 .env*
