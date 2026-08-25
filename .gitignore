@@ -34,8 +34,11 @@ yarn-error.log*
 .next-dev*.log
 
 # local agent/tooling state
+.agents/
 .claude/
 .cc-connect/
+/AGENTS.md
+/CLAUDE.md
 
 # local databases
 *.db
